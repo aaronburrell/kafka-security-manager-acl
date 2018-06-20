@@ -1,4 +1,7 @@
 KafkaPrincipal,ResourceType,ResourceName,Operation,PermissionType,Host
-User:alice,Topic,foo,Read,Allow,*
-User:bob,Group,bar,Write,Deny,12.34.56.78
-User:peter,Cluster,kafka-cluster,Create,Allow,*
+User:CN=producer.test.confluent.io,OU=TEST,O=CONFLUENT,L=PaloAlto,ST=Ca,C=US,Topic,test-topic,Write,Allow,*
+User:CN=producer.test.confluent.io,OU=TEST,O=CONFLUENT,L=PaloAlto,ST=Ca,C=US,Topic,test-topic,Describe,Allow,*
+User:CN=producer.test.confluent.io,OU=TEST,O=CONFLUENT,L=PaloAlto,ST=Ca,C=US,Cluster,kafka-cluster,Create,Allow,*
+User:CN=consumer.test.confluent.io,OU=TEST,O=CONFLUENT,L=PaloAlto,ST=Ca,C=US,Group,ssl-hosts,Read,Allow,*
+User:CN=consumer.test.confluent.io,OU=TEST,O=CONFLUENT,L=PaloAlto,ST=Ca,C=US,Topic,test-topic,Read,Allow,*
+User:CN=consumer.test.confluent.io,OU=TEST,O=CONFLUENT,L=PaloAlto,ST=Ca,C=US,Topic,test-topic,Describe,Allow,*
