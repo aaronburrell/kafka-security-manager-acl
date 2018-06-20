@@ -1,7 +1,7 @@
 KafkaPrincipal,ResourceType,ResourceName,Operation,PermissionType,Host
-User:CN=producer.test.confluent.io,OU=TEST,O=CONFLUENT,L=PaloAlto,ST=Ca,C=US,Topic,test-topic,Write,Allow,*
-User:CN=producer.test.confluent.io,OU=TEST,O=CONFLUENT,L=PaloAlto,ST=Ca,C=US,Topic,test-topic,Describe,Allow,*
-User:CN=producer.test.confluent.io,OU=TEST,O=CONFLUENT,L=PaloAlto,ST=Ca,C=US,Cluster,kafka-cluster,Create,Allow,*
-User:CN=consumer.test.confluent.io,OU=TEST,O=CONFLUENT,L=PaloAlto,ST=Ca,C=US,Group,ssl-hosts,Read,Allow,*
-User:CN=consumer.test.confluent.io,OU=TEST,O=CONFLUENT,L=PaloAlto,ST=Ca,C=US,Topic,test-topic,Read,Allow,*
-User:CN=consumer.test.confluent.io,OU=TEST,O=CONFLUENT,L=PaloAlto,ST=Ca,C=US,Topic,test-topic,Describe,Allow,*
+User:"CN=producer.test.confluent.io,OU=TEST,O=CONFLUENT,L=PaloAlto,ST=Ca,C=US",Topic,test-topic,Write,Allow,*
+User:"CN=producer.test.confluent.io,OU=TEST,O=CONFLUENT,L=PaloAlto,ST=Ca,C=US",Topic,test-topic,Describe,Allow,*
+User:"CN=producer.test.confluent.io,OU=TEST,O=CONFLUENT,L=PaloAlto,ST=Ca,C=US",Cluster,kafka-cluster,Create,Allow,*
+User:"CN=consumer.test.confluent.io,OU=TEST,O=CONFLUENT,L=PaloAlto,ST=Ca,C=US",Group,ssl-hosts,Read,Allow,*
+User:"CN=consumer.test.confluent.io,OU=TEST,O=CONFLUENT,L=PaloAlto,ST=Ca,C=US",Topic,test-topic,Read,Allow,*
+User:"CN=consumer.test.confluent.io,OU=TEST,O=CONFLUENT,L=PaloAlto,ST=Ca,C=US",Topic,test-topic,Describe,Allow,*
