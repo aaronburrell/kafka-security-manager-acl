@@ -5,4 +5,3 @@ KafkaPrincipal,ResourceType,ResourceName,Operation,PermissionType,Host
 "User:'CN=consumer.test.confluent.io,OU=TEST,O=CONFLUENT,L=PaloAlto,ST=Ca,C=US",Group,ssl-host,Read,Allow,*
 "User:'CN=consumer.test.confluent.io,OU=TEST,O=CONFLUENT,L=PaloAlto,ST=Ca,C=US",Topic,test-topic,Read,Allow,*
 "User:'CN=consumer.test.confluent.io,OU=TEST,O=CONFLUENT,L=PaloAlto,ST=Ca,C=US",Topic,test-topic,Describe,Allow,*
-"User:'CN=consumer.test.confluent.io,OU=TEST,O=CONFLUENT,L=PaloAlto,ST=Ca,C=US",Group,ssl-host,Describe,Allow,*
